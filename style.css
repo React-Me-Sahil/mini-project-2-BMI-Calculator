@@ -1,0 +1,101 @@
+  @import url('https://fonts.googleapis.com/css2?family=Atma:wght@300&family=Martel+Sans:wght@600&family=Noto+Serif+Bengali:wght@787&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+            font-family: "roboto";
+
+  }
+
+  body {
+      background-color: rgb(233, 230, 216);
+      display: flex;
+      justify-content: center;
+
+  }
+
+  .full-container {
+      width: 25%;
+      margin-top: 8%;
+      padding: 30px 15px;
+      padding-bottom: 20px;
+      font-size: 30px;
+  }
+
+  h1 {
+      color: rgba(48, 122, 206, 0.89);
+      font-family: "roboto";
+      font-weight: 800;
+
+     
+  }
+
+  .container {
+      padding-bottom: 100px;
+      background-color: white;
+      border-radius: 25px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 20px;
+
+
+  }
+
+  button {
+      background-color: rgb(9, 9, 247);
+      color: aliceblue;
+      padding: 15px;
+      font-size: 20px;
+      font-weight: bold;
+      border-radius: 50px;
+      cursor: pointer;
+      margin-top: 20px;
+
+  }
+
+  #height {
+      font-size: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border: 2px solid black;
+      border-radius: 20px;
+  }
+  #height::placeholder{
+    padding-left: 20px;
+    text-shadow: black;
+    font-weight: bold;
+  }
+
+
+  #weight {
+      font-size: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      border-radius: 20px;
+      border: 2px solid black;
+      
+  }
+    #weight::placeholder{
+    padding-left: 20px;
+    text-shadow: black;
+    font-weight: bold;
+  }
+
+
+  #results h3 {
+      margin-top: 20px;
+      color: darkblue;
+  }
+
+  #results {
+      margin-top: 20px;
+      font-size: 24px;
+      font-weight: bold;
+      color: darkblue;
+  }
+
+  #results p {
+      font-size: 18px;
+      color: black;
+  }
